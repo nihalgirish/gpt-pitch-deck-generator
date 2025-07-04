@@ -1,7 +1,7 @@
 const form = document.getElementById('pitchForm');
 const outputDiv = document.getElementById('output');
 
-const apiKey = "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"; // Replace this before going live!
+const apiKey = "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"; // Replace this before going live!
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
