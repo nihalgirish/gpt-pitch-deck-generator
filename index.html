@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GPT Pitch Deck Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>GPT Pitch Deck Generator</h1>
+    <form id="pitch-form">
+      <input type="text" name="startupName" placeholder="Startup Name" required />
+      <textarea name="problem" placeholder="Problem Statement" required></textarea>
+      <textarea name="solution" placeholder="Solution Description" required></textarea>
+      <textarea name="product" placeholder="Product Overview" required></textarea>
+      <textarea name="market" placeholder="Market Size" required></textarea>
+      <textarea name="revenueModel" placeholder="Revenue Model" required></textarea>
+      <textarea name="teamInfo" placeholder="Team Info" required></textarea>
+      <textarea name="funding" placeholder="Funding Ask" required></textarea>
+      <button type="submit">Generate Pitch Deck</button>
+    </form>
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
